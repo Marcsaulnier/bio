@@ -27,7 +27,31 @@ a {
 h2, h1{
     margin-bottom: 1em;
 }
+h2 {
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+li {
+    list-style: none;
+    align-self: center;
+}
+
+img {
+    width: 150px;
+}
 
 .content {
     margin: 2em 0;
+}
+
+
+footer h2{
+    margin-bottom: 1em;
 }
